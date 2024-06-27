@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 24px;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./reset.scss";
+@import "./font.scss";
+@import "./responsive.scss";
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.button-common {
+  &-primary {
+    background-color: #0071a9 !important;
+    p {
+      color: #fff !important;
+    }
+    &:focus {
+      background-color: #0071a9 !important;
+      p {
+        color: #fff !important;
+      }
+    }
+    &:active,
+    &:hover {
+      background-color: #0071a9 !important;
+    }
+  }
+
+  &-secondary {
+    background-color: #f5f7f9 !important;
+    p {
+      color: #000 !important;
+    }
+    &:focus {
+      background-color: #f5f7f9 !important;
+      p {
+        color: #000 !important;
+      }
+    }
+    &:active,
+    &:hover {
+      background-color: #f5f7f9 !important;
+    }
+  }
+}
