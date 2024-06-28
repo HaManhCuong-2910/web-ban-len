@@ -1,0 +1,43 @@
+// $colors: (
+//   "primary": (
+//     "base": #217b56,
+//   ),
+//   "success": (
+//     "base": #13ce66,
+//   ),
+//   "warning": (
+//     "base": #ffba00,
+//   ),
+//   "danger": (
+//     "base": #ff4949,
+//   ),
+//   "error": (
+//     "base": #db2828,
+//   ),
+//   "info": (
+//     "base": #42b8dd,
+//   ),
+// );
+
+// $font-size: (
+//   "base": "16px",
+// );
+
+// $text-color: (
+//   "regular": "#182531",
+// );
+// $disabled: (
+//   "bg-color": "#F4F4F4",
+//   "text-color": "#566573",
+// );
+// $fill-color: (
+//   "light": "#F4F4F4",
+// );
+// @forward "element-plus/theme-chalk/src/common/var.scss" with (
+//   // do not use same name, it will override.
+//   $colors: $colors,
+//   $font-size: $font-size,
+//   $text-color: $text-color,
+//   $disabled: $disabled,
+//   $fill-color: $fill-color
+// );
