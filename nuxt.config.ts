@@ -56,13 +56,11 @@ export default defineNuxtConfig({
     "nuxt-simple-robots",
     "@element-plus/nuxt",
   ],
-  device: {
-    refreshOnResize: true,
-  },
   i18n: {
     vueI18n: "./src/services/i18n.config.ts",
-    locales: ["en", "vi"],
+    locales: ["vi", "en"],
     defaultLocale: "vi",
+    detectBrowserLanguage: false,
   },
   build: {
     transpile: ["@fortawesome/vue-fontawesome"],
@@ -76,6 +74,9 @@ export default defineNuxtConfig({
       ErrorMessage: "VErrorMessage",
     },
   },
+  elementPlus: {
+    importStyle: "scss",
+  },
   vite: {
     optimizeDeps: {
       include: ["dayjs", "dayjs/plugin/*", "element-plus"],
@@ -83,6 +84,7 @@ export default defineNuxtConfig({
     css: {
       preprocessorOptions: {
         scss: {
+          api: "modern-compiler",
           additionalData:
             '@use "@/assets/scss/custom/theme-element-plus.scss" as element;',
         },
@@ -97,7 +99,7 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   runtimeConfig: {
     public: {
-      apiBase: process.env.API_END_POINT || "",
+      baseUrl: process.env.BASE_URL || "",
     },
   },
 });
