@@ -53,7 +53,7 @@ export default defineNuxtConfig({
     "@vee-validate/nuxt",
     "nuxt-swiper",
     "@nuxtjs/device",
-    "nuxt-simple-robots",
+    "@nuxtjs/robots",
     "@element-plus/nuxt",
   ],
   i18n: {
