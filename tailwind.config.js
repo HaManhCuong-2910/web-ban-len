@@ -18,7 +18,19 @@ module.exports = {
         "2xl": "1200px",
       },
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#EF9635",
+        black: {
+          200: "#E8E8E8",
+          300: "#BABABA",
+        },
+        brand: {
+          100: "#FCDF58",
+          400: "#64270C",
+        },
+      },
+    },
   },
   plugins: [],
 };
