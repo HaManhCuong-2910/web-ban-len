@@ -62,6 +62,7 @@ export default defineNuxtConfig({
     "@nuxtjs/robots",
     "@element-plus/nuxt",
     "nuxt-site-config",
+    "vue3-carousel-nuxt",
   ],
 
   ogImage: {

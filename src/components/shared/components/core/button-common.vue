@@ -81,8 +81,4 @@ const handleClick = () => {
 .el-button.is-disabled:focus {
   background-color: var(--el-disabled-text-color);
 }
-
-.el-button + .el-button {
-  margin-left: 16px;
-}
 </style>

@@ -1,9 +1,13 @@
 <template>
   <footer
-    class="container mx-auto border-t border-t-black-200 lg:pt-8 lg:pb-11 grid grid-cols-3 gap-32"
+    class="container mx-auto border-t border-t-black-200 lg:pt-8 lg:pb-11 lg:grid lg:grid-cols-3 lg:gap-32"
   >
     <div>
-      <img src="/images/LOGO.png" alt="logo" :class="'w-[192px]'" />
+      <img
+        src="/images/LOGO.png"
+        alt="logo"
+        :class="'w-[188px] mt-4 lg:mt-0'"
+      />
       <ul class="mt-4 w-full">
         <li class="flex items-center space-x-2">
           <img src="/images/Location.svg" alt="icon" class="w-6 h-6" />
@@ -24,8 +28,10 @@
         <img src="/images/@.svg" alt="icon" class="w-8 h-8" />
       </div>
     </div>
-    <div class="col-span-2 grid grid-cols-3">
-      <div class="border-r border-r-black-200">
+    <div class="col-span-2 lg:grid lg:grid-cols-3 mt-8 lg:mt-0">
+      <div
+        class="lg:border-r border-b lg:border-b-0 border-b-black-200 lg:border-r-black-200 pb-4 lg:pb-0"
+      >
         <h3 class="text-xl font-medium uppercase text-brand-400">
           VỀ CHÚNG TÔI
         </h3>
@@ -41,7 +47,7 @@
             </nuxt-link>
           </li>
           <li>
-            <nuxt-link :to="'/'" :class="'text-brand-400 text-base'">
+            <nuxt-link :to="'/san-pham'" :class="'text-brand-400 text-base'">
               Sản phẩm
             </nuxt-link>
           </li>
@@ -57,8 +63,10 @@
           </li>
         </ul>
       </div>
-      <div class="border-r border-r-black-200">
-        <div class="mx-auto w-fit">
+      <div
+        class="lg:border-r border-b lg:border-b-0 border-b-black-200 lg:border-r-black-200 pb-4 pt-4 lg:pt-0 lg:pb-0"
+      >
+        <div class="mx-auto lg:w-fit">
           <h3 class="text-xl font-medium uppercase text-brand-400">
             VỀ CHÚNG TÔI
           </h3>
@@ -86,8 +94,8 @@
           </ul>
         </div>
       </div>
-      <div>
-        <div class="mx-auto w-fit">
+      <div class="pb-4 pt-4 lg:pt-0 lg:pb-0">
+        <div class="mx-auto lg:w-fit">
           <h3 class="text-xl font-medium uppercase text-brand-400">
             CHÍNH SÁCH
           </h3>

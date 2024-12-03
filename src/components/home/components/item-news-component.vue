@@ -1,5 +1,7 @@
 <template>
-  <div class="rounded-md border border-black-200">
+  <div
+    class="rounded-md border border-black-200 lg:w-full lg:min-w-full lg:max-w-full min-w-[274px] max-w-[274px]"
+  >
     <nuxt-link :to="'/'">
       <img src="/images/preview-news.png" alt="news" />
     </nuxt-link>

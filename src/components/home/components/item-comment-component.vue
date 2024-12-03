@@ -1,5 +1,7 @@
 <template>
-  <div class="p-4 rounded-md border border-black-200">
+  <div
+    class="p-4 rounded-md border border-black-200 lg:w-full lg:min-w-full lg:max-w-full min-w-[274px] max-w-[274px]"
+  >
     <p class="text-base text-brand-400">
       “Đây là lần đầu tiên mình mua len online và thực sự rất hài lòng. Giao
       hàng nhanh, tư vấn nhiệt tình và sản phẩm chất lượng vượt xa mong đợi. Len

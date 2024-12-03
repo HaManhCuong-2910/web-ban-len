@@ -1,23 +1,24 @@
-// $colors: (
-//   "primary": (
-//     "base": #217b56,
-//   ),
-//   "success": (
-//     "base": #13ce66,
-//   ),
-//   "warning": (
-//     "base": #ffba00,
-//   ),
-//   "danger": (
-//     "base": #ff4949,
-//   ),
-//   "error": (
-//     "base": #db2828,
-//   ),
-//   "info": (
-//     "base": #42b8dd,
-//   ),
-// );
+$colors: (
+  "primary": (
+    "base": #ef9635,
+  ),
+  //   "success": (
+  //     "base": #13ce66,
+  //   ),
+  //   "warning": (
+  //     "base": #ffba00,
+  //   ),
+  //   "danger": (
+  //     "base": #ff4949,
+  //   ),
+  //   "error": (
+  //     "base": #db2828,
+  //   ),
+  //   "info":
+  //     (
+  //       "base": #ef9635,
+  //     ),
+);
 
 // $font-size: (
 //   "base": "16px",
@@ -33,11 +34,11 @@
 // $fill-color: (
 //   "light": "#F4F4F4",
 // );
-// @forward "element-plus/theme-chalk/src/common/var.scss" with (
-//   // do not use same name, it will override.
-//   $colors: $colors,
-//   $font-size: $font-size,
-//   $text-color: $text-color,
-//   $disabled: $disabled,
-//   $fill-color: $fill-color
-// );
+@forward "element-plus/theme-chalk/src/common/var.scss" with (
+  // do not use same name, it will override.
+  $colors: $colors,
+  //   $font-size: $font-size,
+  //   $text-color: $text-color,
+  //   $disabled: $disabled,
+  //   $fill-color: $fill-color
+);

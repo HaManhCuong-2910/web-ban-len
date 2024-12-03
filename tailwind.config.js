@@ -22,12 +22,16 @@ module.exports = {
       colors: {
         primary: "#EF9635",
         black: {
+          100: "#D9D9D9",
           200: "#E8E8E8",
           300: "#BABABA",
         },
         brand: {
           100: "#FCDF58",
           400: "#64270C",
+        },
+        ink: {
+          400: "#566573",
         },
       },
     },
